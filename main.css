@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url('./background.jpeg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+#list {
+    list-style: inside decimal;
+    font: 20px;
+    background: rgba(255, 255, 255, 0.6);
+    width: 500px;
+    margin: auto;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 1);
+    padding: 0;
+    border: none;
+    border-radius: 2px 0 2px 0;
+}
+
+#list li {
+    border-bottom: 1px solid #ececec;
+    padding: 20px;
+}
+
